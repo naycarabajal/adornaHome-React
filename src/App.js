@@ -2,7 +2,6 @@ import { useState } from 'react'
 import './App.css'
 import NavBs from './components/Nav-BS/Nav-bs'
 import ItemListContainer from './Containers/ItemListContainer'
-import ItemCount from './components/ItemCount'
 
 
 const App = () => {
@@ -13,7 +12,7 @@ const App = () => {
       {}
         <img src={"./logo.png"} />
         <NavBs/>
-        <ItemListContainer/>        
+        <ItemListContainer/>       
     </div>
 
   );
